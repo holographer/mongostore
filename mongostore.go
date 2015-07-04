@@ -8,8 +8,8 @@ import (
 	"errors"
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/holographer/mgo.v2"
+	"github.com/holographer/bson"
 	"net/http"
 	"time"
 )
